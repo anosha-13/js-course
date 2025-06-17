@@ -8,7 +8,7 @@ sayHello();  //output:hello there,undefined
 
 function sayHello(name){
     console.log("Hello there,abc");  //output:hello there,abc
-    console.log("Hello there,",name); //output:hello there,abc
+    console.log("Hello there,",name); //output:hello there,def
 }
 
 sayHello("def");  //output:hello there,def
