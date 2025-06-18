@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(66,66,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh; 
+    /* to make ur text appear in center of the page we use min-height:100vh*/
+}
+

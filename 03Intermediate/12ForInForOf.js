@@ -1,4 +1,5 @@
 //For of loop: only used for array to iterate through array 
+//loops over values
 
 const names = [
     "Youtube",
@@ -15,6 +16,7 @@ for (const n of names) {
 
 
 //For in loop: only used for objects
+//loops over key/indexes not values
 
 const symbols = {
     yt: "Youtube",

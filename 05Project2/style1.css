@@ -1,12 +1,17 @@
 body {
     background-color: rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
 }
 
 .color-hover {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    gap:2px;
+    gap: 2px;
 }
 
 .color-red {
@@ -37,4 +42,13 @@ body {
     background-color: pink;
     min-height: 30px;
     width: 100px;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: background 0.3s ease;
+    border-radius: 100px;
 }
